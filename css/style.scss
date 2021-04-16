@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+* ::before, *::after{
+   box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    background:linear-gradient(to right, yellow, green)
+}
+.btn{
+    margin: 10px 10px;
+     text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    padding: 0.375rem 0.75rem;
+    letter-spacing: 0.25rem;
+    display: inline-block;
+    transition: all 0.3s linear;
+    font-size: 0.875rem;
+    border: 2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px #222;
+    border-radius: 0.5rem;
+    // margin: auto;
+}
+.btn:hover{
+   background-color: #222;
+   color: white;
+}
+// .btn:active{
+//     background-color: hotpink;
+// }
+.btn:focus{
+    background-color: hotpink;
+}
+::selection{
+    background-color: lightcoral;
+    color: white;
+}
